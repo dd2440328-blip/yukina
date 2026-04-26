@@ -1,1 +1,1 @@
-print("Script Yukina cua ban da hoat dong!")
+local OrionLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/shlexware/Orion/main/source"))() local Window = OrionLib:MakeWindow({Name = "Yukina Hub", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})  Window:MakeTab({ 	Name = "Main", 	Icon = "rbxassetid://4483345998", 	PremiumOnly = false })  OrionLib:MakeNotification({ 	Name = "Thanh Cong!", 	Content = "Script cua ban da hien menu!", 	Image = "rbxassetid://4483345998", 	Time = 5 })
